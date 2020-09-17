@@ -13,6 +13,7 @@ def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post':post})
 
+
 # <p>published: today</p>
 #         <h2><a href=""> My first Post</a></h2>
 #         <p>Everything was light and the shadow looked dim. Even
